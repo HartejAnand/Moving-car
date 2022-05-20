@@ -13,7 +13,6 @@ se
 
     <!-------------------------------------------Asset Management------------------------------------------->
     <a-assets>      
-
         <a-asset-item id="car-obj" src="./tinker.obj"></a-asset-item>   
         <a-asset-item id="car-mtl" src="./obj.mtl"></a-asset-item>  
         <a-asset-item id="car-gltf" src="./Car.glb"></a-asset-item>          
@@ -22,6 +21,7 @@ se
     
     <!--------------------------------------OBJ Models----------------------------------------------------------->   
     <a-entity position="0 0 0" rotation="0 0 0" move-car>
+      <a-box color="red"></a-box>
       <a-entity obj-model="obj: #tinker-obj; mtl: #car-mtl"  position="5 0 0" rotation="-90 -40 0" scale="0.1 0.1 0.1 "
       ></a-entity>
     </a-entity>
